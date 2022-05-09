@@ -1,4 +1,16 @@
 #canvas {
-    width: 760px;
+    width: 640px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pixel-row {
+    flex: 1;
+    display: flex;
+}
+
+.pixel-col {
+    flex: 1;
+    aspect-ratio: 1 / 1;
 }
