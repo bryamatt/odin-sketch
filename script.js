@@ -16,4 +16,13 @@ function drawGrid(width) {
     }
 }
 
+function changeColour(pixel) {
+    this.classList.add('darken');
+}
+
 drawGrid(16);
+
+const pixels = document.querySelectorAll('.pixel-col');
+
+pixels.forEach(pixel => pixel.addEventListener('mouseenter', changeColour));
+

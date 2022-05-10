@@ -3,6 +3,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
 }
 
 .pixel-row {
@@ -13,4 +14,8 @@
 .pixel-col {
     flex: 1;
     aspect-ratio: 1 / 1;
+}
+
+.darken {
+    background-color: black;
 }
