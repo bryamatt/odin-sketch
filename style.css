@@ -6,6 +6,12 @@
     border: 1px solid black;
 }
 
+#numSquares {
+    margin: auto;
+    display: block;
+}
+
+
 .pixel-row {
     flex: 1;
     display: flex;
